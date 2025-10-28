@@ -23,6 +23,9 @@ The system is built with the following technologies:
 - **Data Visualization**: Custom charting components
 - **API Communication**: Axios
 - **File Handling**: JSZip, shpjs
+- **GIS Server**: GeoServer (hosted on 143.89.22.7:8090 and 143.89.23.123:8080)
+
+All map layers are served through GeoServer instances. The system retrieves spatial data from these servers to visualize various urban elements, disaster events, and risk maps.
 
 ## Project Structure
 
